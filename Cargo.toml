@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "cool",
+    "cool-sys",
+]
+resolver = "2"
