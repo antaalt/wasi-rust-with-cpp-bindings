@@ -1,7 +1,5 @@
 
 
-// $env:Path += ';C:\Users\aaltorffer\Documents\Projects\.thirdparty\wasi-sdk-22.0.m-mingw64\bin'
-// wasmtime --invoke _start .\target\wasm32-wasi\debug\rs.wasm
 
 fn testing_symbol() {
     println!("Insane");
