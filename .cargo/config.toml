@@ -1,2 +1,0 @@
-[target.wasm32-wasi]
-rustflags="-L %WASI_SDK%/share/wasi-sysroot/lib/wasm32-wasi -lstatic=c++ -lstatic=c++abi"

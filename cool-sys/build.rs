@@ -24,9 +24,8 @@ fn main() {
         // No support for exceptions in WASI
         builder.flag("-fno-exceptions");
         println!("cargo:rustc-link-search=native={}/lib/wasm32-wasi", wasi_sysroot);
+        println!("cargo:rustc-flags=-L {}/lib/wasm32-wasi -lstatic=c++ -lstatic=c++abi", wasi_sysroot);
     }
 
     builder.compile("cool");
-
-    println!("cargo::rustc-link-lib=static=cool");
 }
