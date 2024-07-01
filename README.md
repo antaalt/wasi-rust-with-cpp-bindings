@@ -1,4 +1,4 @@
-# WASI Rust C Linking
+# WASI Rust C++ Linking
 
 This code present a basic way of building a c++ library and bind it to rust in order to compile to WASI.
 
