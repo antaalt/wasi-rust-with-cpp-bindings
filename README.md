@@ -10,4 +10,4 @@ This is composed of 2 crates:
 
 ## Build
 
-In order to build this for WASI, we can simply use [cc-rs](https://docs.rs/cc/latest/cc/), some specific settings are necessary as support is not yet perfect for WASI but it will work. Do not forget to setup rustflags to link c++ library.
+In order to build this for WASI, we can simply use [cc-rs](https://docs.rs/cc/latest/cc/), which should support WASI out of the box.
