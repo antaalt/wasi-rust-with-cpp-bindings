@@ -10,4 +10,4 @@ links="cool"
 [dependencies]
 
 [build-dependencies]
-cc = "1.0.97"
+cc = "1.0.104" # Require at least this version for fixes for WASI build.
